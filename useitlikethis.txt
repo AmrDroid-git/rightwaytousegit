@@ -1,0 +1,34 @@
+open your project in vs code
+
+
+go to github and create a repo:  https://github.com/AmrDroid-git/rightwaytousegit
+
+
+In vs code Initialize an Empty Git Repository:
+git init
+
+
+Add the Remote Repository:
+git remote add origin https://github.com/AmrDroid-git/rightwaytousegit
+
+
+
+Pull the Files from github(generally it is just readme.md for the first time):
+git pull origin main
+
+
+
+After adding the changes the Changes:
+git add .
+
+
+
+Commit the Changes:
+git commit -m "Updated files with latest changes"
+
+
+
+Push Changes to GitHub:
+git push origin main
+
+
